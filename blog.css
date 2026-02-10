@@ -310,7 +310,7 @@ nav ul li .btn:hover {
   display: none;
   font-size: 28px;
   cursor: pointer;
-  color: var(--charcoal);
+  color:var(--mutindagreen);
   transition: all 0.3s ease;
   padding: 8px;
   border-radius: 6px;
@@ -1496,5 +1496,30 @@ footer {
   
   .post-content h3 {
     font-size: 1.2rem;
+  }
+}
+.btn-consult {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.2;
+}
+
+.btn-consult .btn-subtext {
+  font-size: 11px;
+  font-weight: 400;
+  opacity: 0.8;
+  margin-top: 4px;
+}
+
+/* Mobile polish */
+@media (max-width: 768px) {
+  .btn-consult {
+    padding: 10px 14px;
+  }
+
+  .btn-consult .btn-subtext {
+    font-size: 10px;
   }
 }

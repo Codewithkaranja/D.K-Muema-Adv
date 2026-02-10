@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-  <!-- Core -->
+  <!-- =========================
+       CORE META
+  ========================== -->
   <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0d47a1" />
   <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
   <meta name="author" content="D.K. Muema & Company Advocates" />
   <link rel="author" href="https://dkmuemaadvocates.co.ke/humans.txt" />
 
-  <!-- Title & Canonical -->
+  <!-- =========================
+       TITLE & SEO
+  ========================== -->
   <title>Legal Insights & Blog | D.K. Muema & Company Advocates</title>
   <meta
     name="description"
@@ -16,13 +22,16 @@
   />
   <link rel="canonical" href="https://dkmuemaadvocates.co.ke/blog.html" />
 
-  <!-- Favicons -->
+  <!-- =========================
+       FAVICONS & PWA
+  ========================== -->
   <link rel="icon" href="/dk-muema-favicon.webp" type="image/webp" />
   <link rel="apple-touch-icon" href="/dk-muema-favicon.webp" />
   <link rel="manifest" href="/site.webmanifest" />
-  <meta name="theme-color" content="#0d47a1" />
 
-  <!-- Open Graph -->
+  <!-- =========================
+       OPEN GRAPH (FACEBOOK / WHATSAPP)
+  ========================== -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="D.K. Muema & Company Advocates" />
   <meta property="og:locale" content="en_KE" />
@@ -32,19 +41,25 @@
     content="Expert legal insights, case updates, and commentary on Kenyan law from D.K. Muema & Company Advocates."
   />
   <meta property="og:url" content="https://dkmuemaadvocates.co.ke/blog.html" />
-  <meta property="og:image" content="https://dkmuemaadvocates.co.ke/full-favicon-512x512.png" />
-  <meta property="og:image:alt" content="D.K. Muema & Company Advocates" />
+  <meta property="og:image" content="https://dkmuemaadvocates.co.ke/dk-muema-favicon.webp" />
+  <meta property="og:image:secure_url" content="https://dkmuemaadvocates.co.ke/dk-muema-favicon.webp" />
+  <meta property="og:image:type" content="image/webp" />
+  <meta property="og:image:alt" content="D.K. Muema & Company Advocates logo" />
 
-  <!-- Twitter -->
+  <!-- =========================
+       TWITTER CARDS
+  ========================== -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Legal Insights & Blog | D.K. Muema & Company Advocates" />
   <meta
     name="twitter:description"
     content="Stay informed with expert legal insights and analysis on Kenyan law from D.K. Muema & Advocates."
   />
-  <meta name="twitter:image" content="https://dkmuemaadvocates.co.ke/full-favicon-512x512.png" />
+  <meta name="twitter:image" content="https://dkmuemaadvocates.co.ke/dk-muema-favicon.webp" />
 
-  <!-- Performance: Fonts -->
+  <!-- =========================
+       PERFORMANCE: FONTS
+  ========================== -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -52,33 +67,36 @@
     rel="stylesheet"
   />
 
-  <!-- Icons -->
+  <!-- =========================
+       STYLES & ICONS
+  ========================== -->
+  <link rel="stylesheet" href="blog.css" />
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     referrerpolicy="no-referrer"
   />
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="blog.css" />
-
-  <!-- Structured Data -->
+  <!-- =========================
+       STRUCTURED DATA (BLOG)
+  ========================== -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Blog",
-    "name": "D.K. Muema & Company Advocates – Legal Insights",
+    "name": "Legal Insights & Blog | D.K. Muema & Company Advocates",
     "url": "https://dkmuemaadvocates.co.ke/blog.html",
     "description": "Expert legal insights, articles, and updates on Kenyan law from D.K. Muema & Company Advocates.",
     "publisher": {
       "@type": "LegalService",
       "name": "D.K. Muema & Company Advocates",
       "url": "https://dkmuemaadvocates.co.ke/",
-      "image": "https://dkmuemaadvocates.co.ke/full-favicon-512x512.png"
+      "image": "https://dkmuemaadvocates.co.ke/dk-muema-favicon.webp"
     }
   }
   </script>
 </head>
+
 
   <body>
     <!-- Header & Navigation -->
@@ -102,9 +120,12 @@
             <li><a href="services.html">Services</a></li>
             <li><a href="blog.html" class="active">Legal Insights</a></li>
            <li><a href="contact.html">Contact</a></li>
-            <li>
-              <a href="contact.html" class="btn">Schedule Consultation</a>
-            </li>
+            <li class="consult-btn">
+  <a href="contact.html" class="btn btn-consult">
+    Schedule Consultation
+    <span class="btn-subtext">Fees on enquiry</span>
+  </a>
+</li>
           </ul>
         </nav>
       </div>
@@ -160,7 +181,7 @@
                     the key changes and what they mean for your business
                     operations, compliance requirements, and strategic planning.
                   </p>
-                  <a href="single-post.html" class="btn">Read Full Article</a>
+                  <a href="understanding-contract-law.html" class="btn">Read Full Article</a>
                 </div>
               </div>
             </div>
@@ -189,7 +210,7 @@
                     can be complex. Our guide simplifies the procedure and
                     highlights common pitfalls to avoid.
                   </p>
-                  <a href="single-post.html" class="read-more"
+                  <a href="understanding-contract-law.html" class="read-more"
                     >Read More <i class="fas fa-arrow-right"></i
                   ></a>
                 </div>
@@ -216,7 +237,7 @@
                     determining child custody arrangements and how to prepare
                     your case effectively.
                   </p>
-                  <a href="single-post.html" class="read-more"
+                  <a href="understanding-contract-law.html" class="read-more"
                     >Read More <i class="fas fa-arrow-right"></i
                   ></a>
                 </div>
@@ -246,7 +267,7 @@
                     your business from potential disputes and liability issues
                     in the Kenyan market.
                   </p>
-                  <a href="single-post.html" class="read-more"
+                  <a href="understanding-contract-law.html" class="read-more"
                     >Read More <i class="fas fa-arrow-right"></i
                   ></a>
                 </div>
@@ -273,7 +294,7 @@
                     law enforcement is crucial. This article outlines what you
                     need to know.
                   </p>
-                  <a href="single-post.html" class="read-more"
+                  <a href="understanding-contract-law.html" class="read-more"
                     >Read More <i class="fas fa-arrow-right"></i
                   ></a>
                 </div>
@@ -298,7 +319,7 @@
                     their estate is distributed. Learn about the rules of
                     intestate succession.
                   </p>
-                  <a href="single-post.html" class="read-more"
+                  <a href="understanding-contract-law.html" class="read-more"
                     >Read More <i class="fas fa-arrow-right"></i
                   ></a>
                 </div>
@@ -326,7 +347,7 @@
                     interpretation of the right to privacy under the Kenyan
                     Constitution.
                   </p>
-                  <a href="single-post.html" class="read-more"
+                  <a href="understanding-contract-law.html" class="read-more"
                     >Read More <i class="fas fa-arrow-right"></i
                   ></a>
                 </div>
@@ -337,18 +358,18 @@
             <div class="pagination">
               <ul class="pagination-list">
                 <li class="pagination-item">
-                  <a href="single-post.html" class="pagination-link active"
+                  <a href="understanding-contract-law.html" class="pagination-link active"
                     >1</a
                   >
                 </li>
                 <li class="pagination-item">
-                  <a href="single-post.html" class="pagination-link">2</a>
+                  <a href="understanding-contract-law.html" class="pagination-link">2</a>
                 </li>
                 <li class="pagination-item">
-                  <a href="single-post.html" class="pagination-link">3</a>
+                  <a href="understanding-contract-law.html" class="pagination-link">3</a>
                 </li>
                 <li class="pagination-item">
-                  <a href="single-post.html" class="pagination-link">Next</a>
+                  <a href="understanding-contract-law.html" class="pagination-link">Next</a>
                 </li>
               </ul>
             </div>
@@ -371,30 +392,30 @@
               <h3>Practice Areas</h3>
               <ul class="categories-list">
                 <li>
-                  <a href="single-post.html"
+                  <a href="understanding-contract-law.html"
                     >Litigation & Dispute Resolution <span>12</span></a
                   >
                 </li>
                 <li>
-                  <a href="single-post.html"
+                  <a href="understanding-contract-law.html"
                     >Corporate & Commercial Law <span>8</span></a
                   >
                 </li>
                 <li>
-                  <a href="single-post.html"
+                  <a href="understanding-contract-law.html"
                     >Conveyancing & Real Estate <span>15</span></a
                   >
                 </li>
                 <li>
-                  <a href="single-post.html"
+                  <a href="understanding-contract-law.html"
                     >Family & Succession Law <span>10</span></a
                   >
                 </li>
                 <li>
-                  <a href="single-post.html">Criminal Defense <span>7</span></a>
+                  <a href="understanding-contract-law.html">Criminal Defense <span>7</span></a>
                 </li>
                 <li>
-                  <a href="single-post.html"
+                  <a href="understanding-contract-law.html"
                     >Constitutional & Human Rights <span>5</span></a
                   >
                 </li>
@@ -414,7 +435,7 @@
                   </div>
                   <div class="recent-post-content">
                     <h4>
-                      <a href="single-post.html"
+                      <a href="understanding-contract-law.html"
                         >Understanding Land Title Transfers in Kenya</a
                       >
                     </h4>
@@ -430,7 +451,7 @@
                   </div>
                   <div class="recent-post-content">
                     <h4>
-                      <a href="single-post.html"
+                      <a href="understanding-contract-law.html"
                         >Child Custody in Kenya: Factors Courts Consider</a
                       >
                     </h4>
@@ -446,7 +467,7 @@
                   </div>
                   <div class="recent-post-content">
                     <h4>
-                      <a href="single-post.html"
+                      <a href="understanding-contract-law.html"
                         >Essential Contracts Every Kenyan Entrepreneur Needs</a
                       >
                     </h4>
@@ -460,14 +481,14 @@
             <div class="sidebar-widget">
               <h3>Popular Tags</h3>
               <div class="tags-cloud">
-                <a href="single-post.html" class="tag">Business Law</a>
-                <a href="single-post.html" class="tag">Real Estate</a>
-                <a href="single-post.html" class="tag">Family Law</a>
-                <a href="single-post.html" class="tag">Legal Updates</a>
-                <a href="single-post.html" class="tag">Court Procedure</a>
-                <a href="single-post.html" class="tag">Contracts</a>
-                <a href="single-post.html" class="tag">Succession</a>
-                <a href="single-post.html" class="tag">Human Rights</a>
+                <a href="understanding-contract-law.html" class="tag">Business Law</a>
+                <a href="understanding-contract-law.html" class="tag">Real Estate</a>
+                <a href="understanding-contract-law.html" class="tag">Family Law</a>
+                <a href="understanding-contract-law.html" class="tag">Legal Updates</a>
+                <a href="understanding-contract-law.html" class="tag">Court Procedure</a>
+                <a href="understanding-contract-law.html" class="tag">Contracts</a>
+                <a href="understanding-contract-law.html" class="tag">Succession</a>
+                <a href="understanding-contract-law.html" class="tag">Human Rights</a>
               </div>
             </div>
 
@@ -480,7 +501,7 @@
               </p>
 
               <form
-                action="https://formsubmit.co/info@dkmuemaadv.co.ke"
+                action="https://formsubmit.co/info@dkmuemaadvocates.co.ke"
                 method="POST"
                 class="newsletter-form"
               >
@@ -597,8 +618,8 @@
               </li>
               <li>
                 <i class="fas fa-envelope"></i
-                ><a href="mailto:info@dkmuemaadv.co.ke">
-                  info@dkmuemaadv.co.ke</a
+                ><a href="mailto:info@dkmuemaadvocates.co.ke">
+                  info@dkmuemaadvocates.co.ke</a
                 >
               </li>
             </ul>

@@ -1,0 +1,20 @@
+{
+  "name": "D.K. Muema & Advocates",
+  "short_name": "DK Muema",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d47a1",
+  "icons": [
+    {
+      "src": "/dk-muema-favicon.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "/dk-muema-favicon.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ]
+}

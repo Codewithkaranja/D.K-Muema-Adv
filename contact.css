@@ -323,7 +323,7 @@ nav ul li .btn:hover {
   display: none;
   font-size: 28px;
   cursor: pointer;
-  color: var(--charcoal);
+  color: var(--mutindagreen);
   transition: all 0.3s ease;
   padding: 8px;
   border-radius: 6px;
@@ -1018,7 +1018,7 @@ footer {
     display: block;
     font-size: 28px;
     cursor: pointer;
-    color: var(--charcoal);
+    color: var(--mutindagreen);
     transition: color 0.3s ease;
     z-index: 1001;
   }
@@ -1083,3 +1083,90 @@ footer {
   .contact-form-container,
   .contact-info-container { padding: 1.5rem; }
 }
+
+.btn-consult {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.2;
+}
+
+.btn-consult .btn-subtext {
+  font-size: 11px;
+  font-weight: 400;
+  opacity: 0.8;
+  margin-top: 4px;
+}
+
+/* Mobile polish */
+@media (max-width: 768px) {
+  .btn-consult {
+    padding: 10px 14px;
+  }
+
+  .btn-consult .btn-subtext {
+    font-size: 10px;
+  }
+}
+/* Toast */
+.toast{
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  width: min(360px, calc(100% - 32px));
+  background: #0b1220;
+  color: #fff;
+  border-radius: 14px;
+  padding: 14px 14px 12px;
+  box-shadow: 0 14px 40px rgba(0,0,0,.25);
+  transform: translateY(16px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .18s ease, transform .18s ease;
+  z-index: 9999;
+}
+
+.toast.show{
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.toast-title{
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.toast-text{
+  font-size: 13px;
+  opacity: .9;
+  margin-bottom: 10px;
+}
+
+.toast-actions{
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.toast-btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 9px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(255,255,255,.10);
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform .15s ease, background .15s ease;
+}
+
+.toast-btn:hover{ transform: translateY(-1px); background: rgba(255,255,255,.14); }
+.toast-btn.ghost{ background: transparent; }

@@ -1,129 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <!-- Core Meta -->
+ <head>
+  <!-- =========================
+       CORE META
+  ========================== -->
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-  <meta name="author" content="D.K. Muema & Advocates" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#0d47a1" />
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
+  <meta name="author" content="D.K. Muema & Advocates" />
 
-  <!-- SEO -->
+  <!-- =========================
+       TITLE & SEO
+  ========================== -->
   <title>Contact Our Legal Team in Machakos, Kenya | D.K. Muema & Advocates</title>
   <meta
     name="description"
-    content="Reach D.K. Muema & Advocates for legal consultations, representation, and inquiries in Machakos and across Kenya. Professional, responsive legal support."
+    content="Contact D.K. Muema & Advocates for legal consultations, representation, and inquiries in Machakos and across Kenya. Call, WhatsApp, email, or visit our office."
   />
   <link rel="canonical" href="https://dkmuemaadvocates.co.ke/contact.html" />
 
-  <!-- Favicons -->
+  <!-- =========================
+       FAVICONS & PWA
+  ========================== -->
   <link rel="icon" type="image/webp" href="/dk-muema-favicon.webp" />
   <link rel="apple-touch-icon" href="/dk-muema-favicon.webp" />
   <link rel="manifest" href="/site.webmanifest" />
 
-  <!-- Open Graph -->
+  <!-- =========================
+       OPEN GRAPH (FACEBOOK / WHATSAPP)
+  ========================== -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="D.K. Muema & Advocates" />
   <meta property="og:locale" content="en_KE" />
-  <meta property="og:title" content="Contact D.K. Muema & Advocates – Legal Services in Kenya" />
+  <meta property="og:title" content="Contact D.K. Muema & Advocates | Machakos, Kenya" />
   <meta
     property="og:description"
-    content="Get in touch with our law firm for consultations, legal representation, or inquiries. Serving Machakos and clients across Kenya."
+    content="Reach our legal team for consultations, representation, and inquiries. Serving Machakos and clients across Kenya."
   />
   <meta property="og:url" content="https://dkmuemaadvocates.co.ke/contact.html" />
   <meta property="og:image" content="https://dkmuemaadvocates.co.ke/dk-muema-favicon.webp" />
+  <meta property="og:image:secure_url" content="https://dkmuemaadvocates.co.ke/dk-muema-favicon.webp" />
+  <meta property="og:image:type" content="image/webp" />
   <meta property="og:image:alt" content="D.K. Muema & Advocates logo" />
 
-  <!-- Twitter -->
+  <!-- =========================
+       TWITTER CARDS
+  ========================== -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Contact D.K. Muema & Advocates – Legal Services in Kenya" />
+  <meta name="twitter:title" content="Contact D.K. Muema & Advocates | Machakos, Kenya" />
   <meta
     name="twitter:description"
-    content="Get in touch with our law firm for consultations, legal representation, or inquiries. Serving Machakos and clients across Kenya."
+    content="Get in touch for consultations, representation, and inquiries. Call, WhatsApp, email, or visit our office in Machakos."
   />
   <meta name="twitter:image" content="https://dkmuemaadvocates.co.ke/dk-muema-favicon.webp" />
   <meta name="twitter:image:alt" content="D.K. Muema & Advocates logo" />
 
-  <!-- Fonts & Icons -->
+  <!-- =========================
+       PERFORMANCE: FONTS
+  ========================== -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet"
   />
+
+  <!-- =========================
+       STYLES & ICONS
+  ========================== -->
+  <link rel="stylesheet" href="contact.css" />
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    referrerpolicy="no-referrer"
   />
 
-  <!-- Page CSS -->
-  <link rel="stylesheet" href="contact.css" />
-
-  <!-- Structured Data: Legal Service -->
+  <!-- =========================
+       STRUCTURED DATA
+       (deduped + consistent IDs)
+  ========================== -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LegalService",
-    "name": "D.K. Muema & Advocates",
-    "url": "https://dkmuemaadvocates.co.ke",
-    "image": "https://dkmuemaadvocates.co.ke/dk-muema-favicon.webp",
-    "telephone": "+254721314100",
-    "email": "info@dkmuemaadv.co.ke",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Anam Annex Building, Opposite Kwetu Sacco, First Floor",
-      "addressLocality": "Machakos Town",
-      "addressRegion": "Machakos",
-      "addressCountry": "KE"
-    },
-    "areaServed": "Kenya",
-    "priceRange": "$$$"
-  }
-  </script>
-
-  <!-- Structured Data: FAQ (from your FAQ section) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+    "@graph": [
       {
-        "@type": "Question",
-        "name": "How quickly will you respond to my inquiry?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "We strive to respond to all inquiries within 24 hours during business days. For urgent matters, we recommend calling our office directly at +254721314100."
-        }
+        "@type": "LegalService",
+        "@id": "https://dkmuemaadvocates.co.ke/#legalservice",
+        "name": "D.K. Muema & Advocates",
+        "url": "https://dkmuemaadvocates.co.ke",
+        "image": "https://dkmuemaadvocates.co.ke/dk-muema-favicon.webp",
+        "telephone": "+254721314100",
+        "email": "info@dkmuemaadvocates.co.ke",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Anam Annex Building, Opposite Kwetu Sacco, First Floor",
+          "addressLocality": "Machakos Town",
+          "addressRegion": "Machakos",
+          "addressCountry": "KE"
+        },
+        "areaServed": "Kenya",
+        "priceRange": "$$$"
       },
       {
-        "@type": "Question",
-        "name": "Do I need to schedule a consultation?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "While walk-ins are welcome, we highly recommend scheduling a consultation to ensure you receive dedicated time with one of our advocates. This allows us to prepare for your specific legal needs."
-        }
+        "@type": "ContactPage",
+        "@id": "https://dkmuemaadvocates.co.ke/contact.html#contactpage",
+        "url": "https://dkmuemaadvocates.co.ke/contact.html",
+        "name": "Contact D.K. Muema & Advocates | Machakos, Kenya",
+        "description": "Contact our legal team in Machakos for consultations, representation, and inquiries. Call, WhatsApp, email, or visit our offices at Anam Annex Building, First Floor.",
+        "about": { "@id": "https://dkmuemaadvocates.co.ke/#legalservice" },
+        "mainEntity": { "@id": "https://dkmuemaadvocates.co.ke/#legalservice" },
+        "inLanguage": "en-KE"
       },
       {
-        "@type": "Question",
-        "name": "What should I bring to my first consultation?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Please bring any relevant documents related to your legal matter, such as contracts, court papers, identification documents, and any correspondence. The more information you can provide, the better we can assess your situation."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is there parking available at your office?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, Anam Annex Building offers ample parking space for our clients. There is both street parking and a dedicated parking lot available."
-        }
+        "@type": "FAQPage",
+        "@id": "https://dkmuemaadvocates.co.ke/contact.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How quickly will you respond to my inquiry?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We strive to respond to inquiries within 24 hours during business days. For urgent matters, please call +254721314100."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to schedule a consultation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Walk-ins are welcome, but we recommend scheduling a consultation to ensure dedicated time with an advocate."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should I bring to my first consultation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bring any relevant documents such as contracts, court papers, identification, and correspondence so we can assess your matter accurately."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you charge consultation fees?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Consultation fees depend on the matter and consultation type. You can request the applicable charges via the enquiry form and our team will respond."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is there parking available at your office?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, Anam Annex Building has parking available for clients, including street parking and dedicated parking space."
+            }
+          }
+        ]
       }
     ]
   }
   </script>
 </head>
+
+
 
 
   <body>
@@ -147,9 +188,15 @@
             <li><a href="services.html">Services</a></li>
             <li><a href="blog.html">Legal Insights</a></li>
             <li><a href="contact.html" class="active">Contact</a></li>
-            <li>
-              <a href="contact.html" class="btn">Schedule Consultation</a>
-            </li>
+       <li class="consult-btn">
+  <a href="contact.html" class="btn btn-consult">
+    Schedule Consultation
+    <span class="btn-subtext">Fees on enquiry</span>
+  </a>
+</li>
+
+
+
           </ul>
         </nav>
       </div>
@@ -223,7 +270,7 @@
               <p><strong></strong></p>
             </div>
             <a
-              href="mailto:info@dkmuemaadv.co.ke"
+              href="mailto:info@dkmuemaadvocates.co.ke"
               class="btn btn-primary"
               >Send Email</a
             >
@@ -260,90 +307,163 @@
               an hour
             </p>
 
-            <form id="contactForm">
-              <div class="form-row">
-                <div class="form-group">
-                  <label for="firstName">First Name *</label>
-                  <input
-                    type="text"
-                    id="firstName"
-                    class="form-control"
-                    required
-                  />
-                </div>
+          <form
+  action="https://formsubmit.co/dkisini@gmail.com"
+  method="POST"
+  id="contactForm"
+>
+  <!-- =====================
+       FormSubmit Settings
+  ====================== -->
+  <input type="hidden" name="_captcha" value="false" />
+  <input
+    type="hidden"
+    name="_subject"
+    value="New Consultation Enquiry – D.K. Muema & Advocates"
+  />
 
-                <div class="form-group">
-                  <label for="lastName">Last Name *</label>
-                  <input
-                    type="text"
-                    id="lastName"
-                    class="form-control"
-                    required
-                  />
-                </div>
-              </div>
+  <!-- Honeypot (Spam Trap) -->
+  <input
+    type="text"
+    name="_honey"
+    style="display:none"
+    tabindex="-1"
+    autocomplete="off"
+  />
 
-              <div class="form-row">
-                <div class="form-group">
-                  <label for="email">Email Address *</label>
-                  <input
-                    type="email"
-                    id="email"
-                    class="form-control"
-                    required
-                  />
-                </div>
+  <!-- =====================
+       Client Information
+  ====================== -->
+  <div class="form-row">
+    <div class="form-group">
+      <label for="firstName">First Name *</label>
+      <input
+        type="text"
+        id="firstName"
+        name="first_name"
+        class="form-control"
+        required
+      />
+    </div>
 
-                <div class="form-group">
-                  <label for="phone">Phone Number *</label>
-                  <input type="tel" id="phone" class="form-control" required />
-                </div>
-              </div>
+    <div class="form-group">
+      <label for="lastName">Last Name *</label>
+      <input
+        type="text"
+        id="lastName"
+        name="last_name"
+        class="form-control"
+        required
+      />
+    </div>
+  </div>
 
-              <div class="form-group">
-                <label for="service">Service Needed</label>
-                <select id="service" class="form-control">
-                  <option value="">Select a service</option>
-                  <option value="litigation">
-                    Litigation & Dispute Resolution
-                  </option>
-                  <option value="corporate">Corporate & Commercial Law</option>
-                  <option value="real-estate">
-                    Conveyancing & Real Estate
-                  </option>
-                  <option value="family">Family & Succession Law</option>
-                  <option value="criminal">Criminal Defense</option>
-                  <option value="human-rights">
-                    Constitutional & Human Rights
-                  </option>
-                  <option value="other">CPR</option>
-                </select>
-              </div>
+  <div class="form-row">
+    <div class="form-group">
+      <label for="email">Email Address *</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        class="form-control"
+        required
+      />
+    </div>
 
-              <div class="form-group">
-                <label for="location">Project Location</label>
-                <input
-                  type="text"
-                  id="location"
-                  class="form-control"
-                  placeholder="County, Town, or Area"
-                />
-              </div>
+    <div class="form-group">
+      <label for="phone">Phone Number *</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        class="form-control"
+        required
+      />
+    </div>
+  </div>
 
-              <div class="form-group">
-                <label for="message">Project Details *</label>
-                <textarea
-                  id="message"
-                  class="form-control"
-                  placeholder="Please describe your water needs, project scope, and any specific requirements..."
-                  required
-                ></textarea>
-              </div>
+  <!-- =====================
+       Service Details
+  ====================== -->
+  <div class="form-group">
+    <label for="service">Service Needed</label>
+    <select
+      id="service"
+      name="service_needed"
+      class="form-control"
+    >
+      <option value="">Select a service</option>
+      <option>Litigation & Dispute Resolution</option>
+      <option>Corporate & Commercial Law</option>
+      <option>Conveyancing & Real Estate</option>
+      <option>Family & Succession Law</option>
+      <option>Criminal Defense</option>
+      <option>Constitutional & Human Rights</option>
+      <option>CPR</option>
+    </select>
+  </div>
 
-              <button type="submit" class="btn btn-primary">
-                Send Message
-              </button>
-            </form>
+  <div class="form-group">
+    <label for="location">Matter Location</label>
+    <input
+      type="text"
+      id="location"
+      name="location"
+      class="form-control"
+      placeholder="County, Town, or Area"
+    />
+  </div>
+
+  <!-- =====================
+       Consultation Preferences
+  ====================== -->
+  <div class="form-group">
+    <label for="consultationType">Preferred Consultation Type</label>
+    <select
+      id="consultationType"
+      name="consultation_type"
+      class="form-control"
+    >
+      <option value="">Select consultation type</option>
+      <option>In-Person (Office Visit)</option>
+      <option>Phone Consultation</option>
+      <option>Online (Zoom / Google Meet)</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>
+      <input
+        type="checkbox"
+        name="consultation_fees_requested"
+        value="Yes"
+      />
+      Request consultation fees & payment details
+    </label>
+  </div>
+
+  <!-- =====================
+       Message
+  ====================== -->
+  <div class="form-group">
+    <label for="message">Describe Your Legal Matter *</label>
+    <textarea
+      id="message"
+      name="message"
+      class="form-control"
+      required
+      placeholder="Briefly describe your legal matter"
+    ></textarea>
+  </div>
+
+  <!-- =====================
+       Submit Button
+  ====================== -->
+  <button type="submit" class="btn btn-primary">
+    Send Message
+  </button>
+</form>
+
           </div>
 
           <!-- Contact Information -->
@@ -387,8 +507,8 @@
               </div>
               <div class="info-content">
                 <h3>Email Address</h3>
-                <a href="mailto:info@dkmuemaadv.co.ke"
-                  >info@dkmuemaadv.co.ke
+                <a href="mailto:info@dkmuemaadvocates.co.ke"
+                  >info@dkmuemaadvocates.co.ke
                 </a>
               </div>
             </div>
@@ -466,12 +586,26 @@
             </div>
             <div class="faq-answer">
               <p>
-                We strive to respond to all inquiries within 24 hours during
+                We strive to respond to all inquiries within an hour during
                 business days. For urgent matters, we recommend calling our
                 office directly at +254721314100.
               </p>
             </div>
           </div>
+          <div class="faq-item">
+  <div class="faq-question">
+    <span>Do you charge consultation fees?</span>
+    <i class="fas fa-chevron-down"></i>
+  </div>
+  <div class="faq-answer">
+    <p>
+      Yes. Consultation fees depend on the nature of the matter and the
+      consultation type. Clients may request consultation fees through our
+      enquiry form, and our team will respond with the applicable charges.
+    </p>
+  </div>
+</div>
+
 
           <div class="faq-item">
             <div class="faq-question">
@@ -617,8 +751,8 @@
               </li>
               <li>
                 <i class="fas fa-envelope"></i
-                ><a href="mailto:info@dkmuemaadv.co.ke">
-                  info@dkmuemaadv.co.ke</a
+                ><a href="mailto:info@dkmuemaadvocates.co.ke">
+                  info@dkmuemaadvocates.co.ke</a
                 >
               </li>
             </ul>
